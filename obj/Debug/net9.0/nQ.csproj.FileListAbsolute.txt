@@ -12,3 +12,4 @@ C:\CSharp Projects\nQ\obj\Debug\net9.0\refint\nQ.dll
 C:\CSharp Projects\nQ\obj\Debug\net9.0\nQ.pdb
 C:\CSharp Projects\nQ\obj\Debug\net9.0\nQ.genruntimeconfig.cache
 C:\CSharp Projects\nQ\obj\Debug\net9.0\ref\nQ.dll
+C:\CSharp Projects\nQ\obj\Debug\net9.0\nQ.sourcelink.json

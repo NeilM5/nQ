@@ -174,13 +174,19 @@ public class Interpreter
 
                 foreach (var i in ascList)
                 {
-                    if (i < 1 || i > 26)
+                    if (i == 0)
+                    {
+                        dqTemp.Add(" ");
+                    }
+                    else if (i >= 1 && i <= 26)
+                    {
+                        char ch = (char)(i + 96);
+                        dqTemp.Add(ch.ToString());
+                    }
+                    else
                     {
                         throw new Exception($"invalid alphabet index: {i}");
                     }
-
-                    char ch = (char)(i + 96);
-                    dqTemp.Add(ch.ToString());
                 }
 
                 break;
