@@ -95,6 +95,8 @@ public class Interpreter
         if (dqTemp.Count == 0)
             throw new Exception("no dequeued data found");
 
+        var dqSnapshot = "[" + string.Join(", ", dqTemp) + "]";
+
         switch (op)
         {
             // Arithmetic //
@@ -160,6 +162,8 @@ public class Interpreter
                         dqTemp.Add(result);
                         break;
                 }
+
+                Console.WriteLine($"operation /{op}: {dqSnapshot} -> [{string.Join(", ", dqTemp)}]\n");
                 break;
             // Arthmetic //
 
@@ -189,6 +193,8 @@ public class Interpreter
                     }
                 }
 
+                Console.WriteLine($"operation /{op}: {dqSnapshot} -> [{string.Join(", ", dqTemp)}]\n");
+
                 break;
 
             case "c":
@@ -202,6 +208,8 @@ public class Interpreter
                 var combined = string.Concat(strList);
 
                 dqTemp.Add(combined);
+
+                Console.WriteLine($"operation /{op}: {dqSnapshot} -> [{string.Join(", ", dqTemp)}]\n");
 
                 break;
 
@@ -226,6 +234,8 @@ public class Interpreter
                     else
                         throw new Exception($"cannot convert integer {i} to boolean; only 1 or 0 allowed");
                 }
+
+                Console.WriteLine($"operation /{op}: {dqSnapshot} -> [{string.Join(", ", dqTemp)}]\n");
 
                 break;
 
