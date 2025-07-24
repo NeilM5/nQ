@@ -205,6 +205,30 @@ public class Interpreter
 
                 break;
 
+            case "b":
+                var bList = dqTemp.OfType<int>().ToList();
+
+                if (bList.Count != dqTemp.Count)
+                    throw new Exception("cannot convert non-integer values to boolean");
+
+                dqTemp.Clear();
+
+                foreach (var i in bList)
+                {
+                    if (i == 0)
+                    {
+                        dqTemp.Add(false);
+                    }
+                    else if (i == 1)
+                    {
+                        dqTemp.Add(true);
+                    }
+                    else
+                        throw new Exception($"cannot convert integer {i} to boolean; only 1 or 0 allowed");
+                }
+
+                break;
+
             default:
                 throw new Exception($"unknown operator: {op}");
         }
