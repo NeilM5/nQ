@@ -1,0 +1,14 @@
+C:\CSharp Projects\nQ\bin\Debug\net9.0\nQ.exe
+C:\CSharp Projects\nQ\bin\Debug\net9.0\nQ.deps.json
+C:\CSharp Projects\nQ\bin\Debug\net9.0\nQ.runtimeconfig.json
+C:\CSharp Projects\nQ\bin\Debug\net9.0\nQ.dll
+C:\CSharp Projects\nQ\bin\Debug\net9.0\nQ.pdb
+C:\CSharp Projects\nQ\obj\Debug\net9.0\nQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharp Projects\nQ\obj\Debug\net9.0\nQ.AssemblyInfoInputs.cache
+C:\CSharp Projects\nQ\obj\Debug\net9.0\nQ.AssemblyInfo.cs
+C:\CSharp Projects\nQ\obj\Debug\net9.0\nQ.csproj.CoreCompileInputs.cache
+C:\CSharp Projects\nQ\obj\Debug\net9.0\nQ.dll
+C:\CSharp Projects\nQ\obj\Debug\net9.0\refint\nQ.dll
+C:\CSharp Projects\nQ\obj\Debug\net9.0\nQ.pdb
+C:\CSharp Projects\nQ\obj\Debug\net9.0\nQ.genruntimeconfig.cache
+C:\CSharp Projects\nQ\obj\Debug\net9.0\ref\nQ.dll
